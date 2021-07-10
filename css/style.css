@@ -88,6 +88,24 @@ body {
     border: 3px solid rgb(85, 123, 194);
 }
 
+#slogan h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#slogan span:nth-child(1) {
+    color: rgb(0, 81, 255);
+    font-weight: 600;
+}
+
+#slogan span:nth-child(3) {
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+}
+
 /* Fine main  */
 /* ------------------------------------------------------------------------------------*/
 
