@@ -35,6 +35,10 @@ body {
     border-radius: 50px;
 }
 
+.ms_font_size15 {
+    font-size: 15px;
+}
+
 /* Fine common */
 /* ------------------------------------------------------------------------------------*/
 
@@ -75,35 +79,87 @@ body {
     font-size: 45px;
 }
 
-#game_list img {
-    width: 100%;
+#jumbotron img {
+    width: 250px;
 }
+
+/* #game_list {
+    height: 150px;
+} */
 
 #game_list img  {
     border-radius: 20px;
     padding: 2px;
+    width: 100%;
 }
 
 #game_list img:hover {
     border: 3px solid rgb(85, 123, 194);
 }
 
-#slogan h2 {
+#slogan h2, #playstation_info h2 {
     font-size: 38px;
-    font-weight: 700;
     margin-bottom: 40px;
-    margin-top: 10px;
 }
 
 #slogan span:nth-child(1) {
-    color: rgb(0, 81, 255);
+    color: #1F83D3;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#slogan span:nth-child(3), #playstation_info span {
+    font-size: 20px;
+    color: rgb(119, 118, 118);
     font-weight: 600;
 }
 
-#slogan span:nth-child(3) {
-    font-size: 20px;
-    color: gray;
-    font-weight: 600;
+#playstation_info img {
+    width: 100%;
+    padding: 30px;
+}
+
+#playstation_info button {
+    width: 200px;
+    margin-top: 50px;
+}
+
+#playstation_info span {
+    font-size: 16px;
+}
+
+#slider {
+    height: 700px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider img {
+    width: 250px;
+}
+
+#new_releases {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+#new_releases img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#new_releases span {
+    margin-bottom: 20px;
+}
+
+#new_releases h2 {
+    font-size: 40px;
+}
+
+#new_releases > div > div:nth-child(1) > div > span {
+    font-size: 25px;
 }
 
 /* Fine main  */
@@ -114,3 +170,27 @@ body {
 
 /* Fine footer  */
 /* ------------------------------------------------------------------------------------*/
+
+
+/* Media queries */
+
+@media screen and (max-width: 992px) {
+
+    #playstation_info img {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .prod_name {
+        display: none;
+    }
+
+    #playstation_info img {
+        padding: 0;
+    }
+}
+
+
+/* Fine media queries */
