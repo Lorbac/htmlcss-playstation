@@ -177,6 +177,30 @@ body {
     width: 130px;
 }
 
+#playstation_plus {
+    background-color: #BEBCBB;
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#playstation_plus button {
+    width: 250px;
+    background-color: lightgray;
+    color: rgb(85, 123, 194);
+}
+
+.ps_plus_logo {
+    width: 400px;
+}
+
+#playstation_plus span {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
 /* Fine main  */
 /* ------------------------------------------------------------------------------------*/
 
@@ -204,6 +228,10 @@ body {
 
     #playstation_info img {
         padding: 0;
+    }
+    
+    #playstation_plus {
+        background-image: none;
     }
 }
 
