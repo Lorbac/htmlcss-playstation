@@ -154,7 +154,7 @@ body {
     margin-bottom: 20px;
 }
 
-#new_releases h2, #playstation_explore h2 {
+#new_releases h2, #playstation_explore h2, #playstation_sale h2 {
     font-size: 40px;
 }
 
@@ -166,7 +166,7 @@ body {
     font-size: 20px;
 }
 
-#playstation_explore span {
+#playstation_explore span, #playstation_sale span {
     font-size: 20px;
     color: gray;
     font-weight: 600;
@@ -179,10 +179,6 @@ body {
 
 #playstation_plus {
     background-color: #BEBCBB;
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 #playstation_plus button {
@@ -191,14 +187,40 @@ body {
     color: rgb(85, 123, 194);
 }
 
-.ps_plus_logo {
-    width: 400px;
+#ps_plus_logo {
+    width: 60%;
+}
+
+#ps_plus_img {
+    width: 100%;
 }
 
 #playstation_plus span {
     font-size: 20px;
     font-weight: 600;
-    margin: 40px 0;
+}
+
+#playstation_sale img {
+    width: 100%;
+}
+
+#playstation_now {
+    background-color: #161C3B;
+}
+
+#playstation_now button {
+    width: 250px;
+    background-color: lightgray;
+    color: black;
+}
+
+#ps_now_img {
+    width: 100%;
+}
+
+#ps_now_logo {
+    width: 70%;
+
 }
 
 /* Fine main  */
@@ -232,6 +254,14 @@ body {
     
     #playstation_plus {
         background-image: none;
+    }
+
+    #ps_now_img {
+        display: none;
+    }
+
+    #ps_plus_img {
+        display: none;
     }
 }
 
