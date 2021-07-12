@@ -154,12 +154,27 @@ body {
     margin-bottom: 20px;
 }
 
-#new_releases h2 {
+#new_releases h2, #playstation_explore h2 {
     font-size: 40px;
 }
 
 #new_releases > div > div:nth-child(1) > div > span {
     font-size: 25px;
+}
+
+.copyright {
+    font-size: 20px;
+}
+
+#playstation_explore span {
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#playstation_explore button {
+    width: 130px;
 }
 
 /* Fine main  */
