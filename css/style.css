@@ -68,11 +68,15 @@ body {
 /* Main  */
 
 #jumbotron {
-    height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#text_jumbo {
+    padding-top: 400px;
+    padding-bottom: 40px;
 }
 
 #jumbotron h1 {
@@ -82,10 +86,6 @@ body {
 #jumbotron img {
     width: 250px;
 }
-
-/* #game_list {
-    height: 150px;
-} */
 
 #game_list img  {
     border-radius: 20px;
@@ -129,7 +129,6 @@ body {
 }
 
 #slider {
-    height: 700px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
