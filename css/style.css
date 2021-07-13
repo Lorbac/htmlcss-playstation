@@ -220,16 +220,20 @@ body {
 
 #ps_now_logo {
     width: 70%;
+}
 
+#social .container {
+    max-width: 580px;
 }
 
 #social img {
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 #social h2 {
     font-size: 40px;
+    padding: 50px 0;
 }
 
 /* Fine main  */
@@ -237,6 +241,41 @@ body {
 
 /* ------------------------------------------------------------------------------------*/
 /* Footer  */
+
+footer {
+    background-color: #00439C
+}
+
+#p_logo {
+    display: block;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+#lang_globe {
+    width: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+#sie_logo {
+    display: block;
+    width: 150px;
+}
+
+footer span a {
+    color: white;
+}
 
 /* Fine footer  */
 /* ------------------------------------------------------------------------------------*/
